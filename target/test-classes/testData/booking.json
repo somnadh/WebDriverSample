@@ -1,0 +1,11 @@
+{
+    "firstname" : "Somu",
+    "lastname" : "kin",
+    "totalprice" : 111,
+    "depositpaid" : true,
+    "bookingdates" : {
+        "checkin" : "2016-01-01",
+        "checkout" : "2026-01-01"
+    },
+    "additionalneeds" : "Breakfast"
+}

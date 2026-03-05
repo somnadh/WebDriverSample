@@ -1,39 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-17T12:25:10 IST" name="Suite" finished-at="2026-02-17T12:25:22 IST" duration-ms="12015">
+  <suite started-at="2026-03-05T10:53:41 IST" name="Suite" finished-at="2026-03-05T10:53:48 IST" duration-ms="6914">
     <groups>
     </groups>
-    <test started-at="2026-02-17T12:25:10 IST" name="Test" finished-at="2026-02-17T12:25:22 IST" duration-ms="12015">
-      <class name="Par.Third">
-        <test-method signature="Test1()[pri:0, instance:Par.Third@61df66b6]" started-at="2026-02-17T12:25:10 IST" name="Test1" finished-at="2026-02-17T12:25:19 IST" duration-ms="9182" status="PASS">
+    <test started-at="2026-03-05T10:53:41 IST" name="Test" finished-at="2026-03-05T10:53:48 IST" duration-ms="6914">
+      <class name="testscripts.ExtentReport">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testscripts.ExtentReport@397fbdb]" started-at="2026-03-05T10:53:41 IST" name="setup" finished-at="2026-03-05T10:53:44 IST" duration-ms="2628" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test1 -->
-        <test-method signature="Test2()[pri:0, instance:Par.Third@61df66b6]" started-at="2026-02-17T12:25:10 IST" name="Test2" finished-at="2026-02-17T12:25:19 IST" duration-ms="9080" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupExtent()[pri:0, instance:testscripts.ExtentReport@397fbdb]" started-at="2026-03-05T10:53:44 IST" name="setupExtent" finished-at="2026-03-05T10:53:44 IST" duration-ms="461" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test2 -->
-        <test-method signature="Test3()[pri:0, instance:Par.Third@61df66b6]" started-at="2026-02-17T12:25:18 IST" name="Test3" finished-at="2026-02-17T12:25:22 IST" duration-ms="3616" status="PASS">
+        </test-method> <!-- setupExtent -->
+        <test-method signature="LoginTest(java.lang.String,java.lang.String)[pri:0, instance:testscripts.ExtentReport@397fbdb]" started-at="2026-03-05T10:53:45 IST" name="LoginTest" data-provider="loginData" finished-at="2026-03-05T10:53:47 IST" duration-ms="2890" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test3 -->
-      </class> <!-- Par.Third -->
-      <class name="Par.SecondClass">
-        <test-method signature="Test2()[pri:0, instance:Par.SecondClass@619713e5]" started-at="2026-02-17T12:25:10 IST" name="Test2" finished-at="2026-02-17T12:25:19 IST" duration-ms="9144" status="PASS">
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:testscripts.ExtentReport@397fbdb]" started-at="2026-03-05T10:53:47 IST" name="teardown" finished-at="2026-03-05T10:53:48 IST" duration-ms="160" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginTest status=SUCCESS method=ExtentReport.LoginTest(java.lang.String,java.lang.String)[pri:0, instance:testscripts.ExtentReport@397fbdb] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test2 -->
-        <test-method signature="Test1()[pri:0, instance:Par.SecondClass@619713e5]" started-at="2026-02-17T12:25:10 IST" name="Test1" finished-at="2026-02-17T12:25:18 IST" duration-ms="8248" status="PASS">
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="finishExtenet()[pri:0, instance:testscripts.ExtentReport@397fbdb]" started-at="2026-03-05T10:53:48 IST" name="finishExtenet" finished-at="2026-03-05T10:53:48 IST" duration-ms="685" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test1 -->
-        <test-method signature="Test3()[pri:0, instance:Par.SecondClass@619713e5]" started-at="2026-02-17T12:25:10 IST" name="Test3" finished-at="2026-02-17T12:25:19 IST" duration-ms="9310" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test3 -->
-      </class> <!-- Par.SecondClass -->
+        </test-method> <!-- finishExtenet -->
+      </class> <!-- testscripts.ExtentReport -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
